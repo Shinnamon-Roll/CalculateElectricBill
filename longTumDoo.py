@@ -15,7 +15,6 @@ def menu():
             widthMoney = int(input("\nEnter your money to Widthdraw : "))
             totalMoney = width(totalMoney, widthMoney)
             memoList.append(f"ถอนเงิน {widthMoney} บาท")
-
         
         elif choose == 3:
             print(f"\nยอดเงินทั้งหมดที่มีคือ {totalMoney} บาท\n")
